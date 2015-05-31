@@ -21,12 +21,14 @@ var Box = React.createClass({
             <iframe 
               src={"//player.vimeo.com/video/" + this.props.code} 
               frameBorder="0" 
-              iframe-id='vimeo1'
-              api='1'
-              player_id='vimeo1'
+              //iframe-id='vimeo1'
+              //api='1'
+              //player_id='vimeo1'
               width={this.state.windowWidth}
               height={this.state.windowHeight}
-              allowFullScreen></iframe>
+              webkitallowfullscreen 
+              mozallowfullscreen 
+              allowfullscreen></iframe>
           </div>
       );
   }
@@ -36,7 +38,7 @@ var Records = React.createClass({
   
   render: function() {
     return(
-      <Box code="115142604" />
+      <Box code="120098282" />
       );
   }
 });
