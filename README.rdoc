@@ -1,9 +1,5 @@
-== React/Rails Expense Demo
+== PURESHIT 
 
-This is a React/Rails demo application built following an Airpair tutorial.
-The tutorial uses coffeescript, this repo is the same project with the
-React portion translated into JS/JSX.
+...is an open source music platform.
 
-* Tutorial: https://www.airpair.com/reactjs/posts/reactjs-a-guide-for-rails-developers
-* Source: https://github.com/fervisa/accounts-react-rails
-* Credit to https://github.com/fervisa for original content
+Rails + React
